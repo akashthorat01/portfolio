@@ -5,7 +5,8 @@ import akuuu1 from '../assets/akuuu1.jpeg';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-[100vh] flex items-center justify-center pt-20 px-6 md:px-12 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-start md:items-center justify-center px-4 md:px-12 py-10 md:py-0 relative overflow-hidden">
+
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center z-10 w-full">
 
         <motion.div
@@ -55,7 +56,7 @@ const Hero = () => {
           className="relative flex justify-center items-center mt-12 md:mt-0"
         >
           {/* Decorative elements for image placeholder */}
-          <div className="relative w-full aspect-square max-w-md mx-auto mt-10">
+          <div className="relative w-full aspect-square max-w-md mx-auto mt-6 md:mt-0">
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-secondary/30 rounded-full blur-3xl"></div>
             <div className="absolute inset-4 glass rounded-3xl border border-white/20 overflow-hidden flex items-center justify-center p-2 transform rotate-3 hover:rotate-0 transition-transform duration-500">
               <img src={akuuu1} alt="Abstract Code/Design" loading="lazy" className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-500" />
